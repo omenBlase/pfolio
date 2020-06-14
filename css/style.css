@@ -481,7 +481,7 @@ h2:before {
 	color: #255784;
 	background: #2196f3;
 	box-shadow: 0 0 1rem #2196f3, 0 0 4rem #2196f3, 0 0 8rem #2196f3;
-	transition-delay: 1s;
+	transition-delay: 0.65s;
 }
 
 .container.contact a span {
@@ -498,7 +498,7 @@ h2:before {
 
 .container.contact a:hover span:nth-child(1) {
 	left: 100%;
-	transition: 1s;
+	transition: 0.5s;
 }
 
 .container.contact a span:nth-child(3) {
@@ -511,8 +511,8 @@ h2:before {
 
 .container.contact a:hover span:nth-child(3) {
 	right: 100%;
-	transition: 1s;
-	transition-delay: 0.5s;
+	transition: 0.6s;
+	transition-delay: 0.25s;
 }
 
 .container.contact a span:nth-child(2) {
@@ -525,8 +525,8 @@ h2:before {
 
 .container.contact a:hover span:nth-child(2) {
 	top: 100%;
-	transition: 1s;
-	transition-delay: 0.25s;
+	transition: 0.4s;
+	transition-delay: 0.15s;
 }
 
 .container.contact a span:nth-child(4) {
@@ -539,8 +539,8 @@ h2:before {
 
 .container.contact a:hover span:nth-child(4) {
 	bottom: 100%;
-	transition: 1s;
-	transition-delay: 0.75s;
+	transition: 0.4s;
+	transition-delay: 0.54s;
 }
 
 .container.contact form {
@@ -599,7 +599,7 @@ h2:before {
 }
 .container .socials a i:hover {
 	color: gray;
-	background: #333333;
+	background: #333330;
 }
 
 .container.footer {
