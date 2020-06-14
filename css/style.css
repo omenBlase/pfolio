@@ -586,16 +586,20 @@ h2:before {
 
 .container .socials {
 	position: absolute;
-	transform: rotate(-90deg);
-	margin-top: -9rem;
-	margin-left: -6rem;
+	margin-top: -1rem;
+	margin-left: 1rem;
 }
 
-.container .socials a {
-	font-family: 'Roboto Condensed', sans-serif;
-	color: gray;
+.container .socials a i {
+	color: rgb(66, 66, 66);
 	text-decoration: none;
-	margin: 1rem;
+	color: #2196f3;
+	font-size: 2.5rem;
+	margin-left: 1.2rem;
+}
+.container .socials a i:hover {
+	color: gray;
+	background: #333333;
 }
 
 .container.footer {
