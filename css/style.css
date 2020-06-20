@@ -414,7 +414,7 @@ h2:before {
 	text-align: center;
 }
 
-.about h1 {
+.about h3 {
 	color: gray;
 	margin-left: 58rem;
 	margin-top: -52rem;
@@ -553,8 +553,8 @@ h2:before {
 	box-shadow: -5px -5px 10px #2d2758cb, 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-.container.contact h1 {
-	color: #c7c7c7;
+.container.contact h4 {
+	color: gray;
 	font-weight: 700;
 	font-size: 2.7rem;
 	text-transform: uppercase;
@@ -571,8 +571,7 @@ h2:before {
 	font-size: 2.4rem;
 	background-color: #221e3f;
 	border: none;
-	border-radius: 4rem;
-	box-shadow: inset -2px -2px -6px rgba(255, 255, 255, 0.1), 2px 2px 6px rgba(0, 0, 0, 0.8);
+	box-shadow: inset -5px -5px 10px #2d2758cb, 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .container.contact textarea {
@@ -582,6 +581,8 @@ h2:before {
 	margin-left: 8rem;
 	margin-bottom: -2rem;
 	font-size: 2.2rem;
+	background-color: #221e3f;
+	box-shadow: inset -5px -5px 10px #2d2758cb, 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .container .socials {
